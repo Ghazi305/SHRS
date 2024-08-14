@@ -19,7 +19,12 @@ SHRS هو نظام لحجز الإقامة الطلابية.
 cp .env.example .env
 php artisan key:generate
 
-#اعداد قاعده البيانات وتشغيل التهجير 
+## بيانات الدخول 
+
+email: admin@gmail.com
+password: 12345678
+
+## اعداد قاعده البيانات وتشغيل التهجير 
 
 php artisan migrate
 
